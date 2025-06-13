@@ -1,0 +1,16 @@
+{
+    "manifest_version": 1.0,
+    "id": "geomap",
+    "name": "Geomap hosts",
+    "version": "1.0.0",
+    "namespace": "GeomapHosts",
+    "author": "Vinicius Sousa",
+    "url": "",
+    "description": "Mostrar Geomaps",
+    "actions": {
+        "geomaphost.view": {
+            "class": "CControllerGeomapHostView",
+            "view": "module.monitoring.geomaphost.view"
+        }
+    }
+}
